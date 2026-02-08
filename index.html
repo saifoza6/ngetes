@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: #0f172a; color: white; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .android-card { transition: all 0.3s ease; }
+        .android-card:active { transform: scale(0.95); background: rgba(56, 189, 248, 0.2); }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-md mx-auto">
+        <header class="mb-8 mt-4">
+            <h1 class="text-3xl font-bold text-sky-400">Halo, saifoza6!</h1>
+            <p class="text-slate-400">Selamat datang di Dashboard Android.</p>
+        </header>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="glass p-6 rounded-3xl android-card text-center">
+                <div class="text-3xl mb-2">📁</div>
+                <div class="font-semibold text-sm">Projects</div>
+            </div>
+            <div class="glass p-6 rounded-3xl android-card text-center border-sky-500/50">
+                <div class="text-3xl mb-2">⚡</div>
+                <div class="font-semibold text-sm text-sky-400">Fast Mode</div>
+            </div>
+            <div class="glass p-6 rounded-3xl android-card text-center">
+                <div class="text-3xl mb-2">🛡️</div>
+                <div class="font-semibold text-sm">Security</div>
+            </div>
+            <div class="glass p-6 rounded-3xl android-card text-center">
+                <div class="text-3xl mb-2">⚙️</div>
+                <div class="font-semibold text-sm">Settings</div>
+            </div>
+        </div>
+
+        <div class="glass mt-8 p-6 rounded-3xl border-l-4 border-sky-500">
+            <h3 class="font-bold mb-2">Keterangan Sistem</h3>
+            <ul class="text-xs text-slate-400 space-y-2">
+                <li>• Website ini dihosting di GitHub Pages.</li>
+                <li>• GUI dioptimalkan untuk tampilan HP (Mobile-First).</li>
+                <li>• Dibuat otomatis menggunakan Python Automation.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
